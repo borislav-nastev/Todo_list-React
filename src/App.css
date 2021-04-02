@@ -1,11 +1,10 @@
 .title {
   font-size: calc(1.5rem + 6vw);
   color: var(--black);
-  opacity: 0.5;
   text-align: center;
   letter-spacing: 2px;
   margin-bottom: 1em;
-  opacity: 0.2;
+  opacity: .2;
 }
 
 .container {
@@ -45,7 +44,7 @@ input::placeholder {
 }
 
 .btn:hover {
-  opacity: 0.5;
+  opacity: .5;
   transform: scale(1.3);
 }
 
