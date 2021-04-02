@@ -1,0 +1,24 @@
+.lists_section {
+  margin-bottom: 2em;
+  color: white;
+  font-size: 1.6rem;
+}
+
+.section_title {
+  font-size: 3rem;
+  margin-bottom: 0.7em;
+  letter-spacing: 2px;
+  opacity: 0.8;
+}
+
+.lists_container {
+  margin-bottom: 0.7em;
+  padding-left: 1.3em;
+  list-style: circle;
+}
+
+@media (min-width: 800px) {
+  .lists_section {
+    grid-area: lists;
+  }
+}

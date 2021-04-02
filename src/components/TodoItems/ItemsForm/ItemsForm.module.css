@@ -1,0 +1,21 @@
+form {
+  padding: 0 2rem;
+  margin-bottom: 2em;
+}
+
+.item_input {
+  border-bottom: 1px solid var(--black);
+  width: 60%;
+  opacity: 0.7;
+  transition: border-bottom-width 250ms ease-in-out;
+}
+
+.item_input:focus {
+  border-bottom-width: 3px;
+  outline: none;
+}
+
+.item_btn {
+  color: var(--blue);
+  margin-right: 0.5em;
+}

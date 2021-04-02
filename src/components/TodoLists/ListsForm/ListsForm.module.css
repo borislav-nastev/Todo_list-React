@@ -1,0 +1,19 @@
+.lists_form {
+  padding: 0;
+}
+
+.lists_form_input {
+  color: white;
+  border-bottom: 1px solid white;
+  transition: border-bottom-width 250ms ease-in-out;
+}
+
+.lists_form_input:focus {
+  border-bottom-width: 3px;
+  outline: none;
+}
+
+.lists_form_btn {
+  background-color: var(--blue);
+  margin-right: 0.5em;
+}

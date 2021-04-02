@@ -1,0 +1,22 @@
+.clear_buttons {
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.clear_buttons button {
+  font-size: 1.5rem;
+  padding: 0.5em 0;
+  background-color: var(--blue);
+  border: none;
+  color: white;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: color 400ms ease-in-out;
+}
+
+.clear_buttons button:hover {
+  color: var(--black);
+  opacity: 0.7;
+}
